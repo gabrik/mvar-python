@@ -1,6 +1,6 @@
 # pyhton-mvar
 
-<!-- [![PyPI version](https://badge.fury.io/py/yaks.svg)](https://badge.fury.io/py/yaks) -->
+[![PyPI version](https://badge.fury.io/py/mvar.svg)](https://badge.fury.io/py/mvar)
 [![Build Status](https://travis-ci.com/gabrik/mvar-python.svg?branch=master)](https://travis-ci.com/gabrik/mvar-python)
 [![codecov](https://codecov.io/gh/gabrik/mvar-python/branch/master/graph/badge.svg)](https://codecov.io/gh/gabrik/mvar-python)
 
