@@ -33,11 +33,11 @@ setup(
     authon_email='gabriele.baldoni@gmai.com',
     license='Apache 2.O',
     classifiers=[
-          'Development Status :: 2 - Pre-Alpha',
+          'Development Status :: 5 - Production/Stable',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: Apache Software License',
-          'Programming Language :: Python :: 3',
-          'Programming Language :: Python :: 2'
+          'Operating System :: OS Independent',
+          'Programming Language :: Python :: 3 :: Only'
     ],
     include_package_data=True
 )
