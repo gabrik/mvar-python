@@ -1,0 +1,24 @@
+addons:
+  apt:
+    update: true
+dist: xenial
+language: python
+python:
+  - "3.5"
+  - "2.7"
+env:
+  matrix:
+  - TOXENV=py3
+  - TOXENV=py2
+  - TOXENV=pep8
+
+install:
+  - travis_retry pip install tox
+  - pip install codecov
+script:
+  - bash -ex .travis-ci.sh
+cache:
+  directories:
+    - $HOME/.cache/pip
+after_success:
+- codecov
