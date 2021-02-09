@@ -1,4 +1,4 @@
-# Copyright (c) 2018 Gabriele Baldoni.
+# Copyright (c) 2018 Gabriele Baldoni, Artem Chirkin.
 #
 # See the NOTICE file(s) distributed with this work for additional
 # information regarding copyright ownership.
@@ -10,7 +10,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-# Contributors: Gabriele Baldoni MVar implementation in Python
+# Contributors: Gabriele Baldoni, Artem Chirkin
 
 #!/usr/bin/env python3
 
@@ -24,8 +24,8 @@ def read(fname):
 
 setup(
     name='mvar',
-    version='0.0.1',
-    author='Gabriele Baldoni',
+    version='1.0.0',
+    author='Gabriele Baldoni, Artem Chirkin',
     description='Python implementation of Haskell\'s Control.Concurrent.MVar',
     long_description=read('README.md'),
     packages=['mvar'],

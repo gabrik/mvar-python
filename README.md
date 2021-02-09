@@ -7,10 +7,10 @@
 
 A Pyhton port of Haskell's [Control.Concurrent.MVar](https://hackage.haskell.org/package/base/docs/Control-Concurrent-MVar.html).
 
-This implementation blocks on get is the MVar is empty, and on put if the MVar is not empty.
+This implementation blocks on get if the MVar is empty, and on put if the MVar is not empty.
 
 A MVar is a mutable location which can either be empty, or contain a value.
-The location can be written to and read from safely from multiple concurrent Unix threads.
+The location can be written to and read from safely from multiple concurrent python threads.
 
 
 ### Installation
