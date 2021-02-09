@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.0.0] - 2021-02-03
+### Changed
+- **MVar** is redefined to match Haskell's implementation more closely
 
 ## [0.0.1] - 2018-12-21
 ### Added
@@ -13,8 +16,8 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - Nothing
 
-        
-        
+
+
 
 
 #### Remarks

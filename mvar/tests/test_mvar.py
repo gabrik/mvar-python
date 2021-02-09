@@ -32,12 +32,12 @@ class MVarTests(unittest.TestCase):
 
         local_var = MVar()
         Thread(target=worker, args=(local_var,), daemon=True).start()
-        res = local_var.get()
+        res = local_var.take()
 
         local_var.put(2)
         Thread(target=worker2, args=(local_var,), daemon=True).start()
-        res2 = local_var.get()
-        res3 = local_var.get()
+        res2 = local_var.take()
+        res3 = local_var.take()
 
         self.assertEqual(res, 1)
         self.assertEqual(res2, 2)
